@@ -28,7 +28,7 @@ html {
     --colour-primary-500-contrast: beige;
     --colour-error-100: goldenrod;
     --colour-error-500: red;
-    --colour-primary-500-bg: beige;
+    --colour-primary-500-bg: black;
 
     --space-1: 0.25rem;
     --space-2: 0.5rem;
@@ -44,7 +44,7 @@ html {
 
 body {
     background-color: var(--colour-primary-500-bg);
-    color: var(--colour-grey-400);
+    color: var(--colour-grey-50);
     margin: 0;
 }
 
@@ -77,6 +77,5 @@ a {
 
 .btn:hover,
 .btn:active {
-    background-color: var(--colour-primary-500);
-    
+    background-color: var(--colour-primary-500);  
 }
