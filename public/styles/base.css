@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Mulish', sans-serif;
+    color: #ffffc7;
+    --colour-grey-50: #eee;
+    --colour-grey-100: #ccc;
+    --colour-grey-200: #777;
+    --colour-grey-300: #444;
+    --colour-grey-400: #222;
+    --colour-grey-500: #121212;
+    --colour-grey-600: #111;
+    --colour-grey-700: #101010;
+    --colour-primary-50: #f5eead;
+    --colour-primary-100: #eec16e;
+    --colour-primary-200: #fbaf21;
+    --colour-primary-400: #ff8c00;
+    --colour-primary-500: #ff7300;
+    --colour-primary-700: #ff4500;
+    --colour-primary-200-contrast: #511801;
+    --colour-primary-500-contrast: #f9f9e8;
+    --colour-error-100: #ccaf67;
+    --colour-error-500: #f21616;
+    --colour-primary-500-bg: #010101;
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+
+    --border-radius-sm: 3px;
+    --border-radius-md: 5px;
+
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: var(--colour-grey-500);
+    color: var(--colour-primary-500-contrast);
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--colour-primary-400);
+}
+
+.btn {
+    cursor: pointer;
+    font: inherit;
+    padding: var(--space-2) var(--space-6);
+    background-color: var(--colour-primary-500);
+    color: var(--colour-primary-500-contrast);
+    border: 1px solid var(--colour-primary-500);
+    border-radius: var(--border-radius-sm);
+}
+
+.btn:hover,
+.btn:active {
+    background-color: var(--colour-primary-700);
+    border-color: var(--colour-primary-700);
+}
