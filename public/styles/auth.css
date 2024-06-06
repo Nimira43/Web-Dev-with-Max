@@ -1,21 +1,22 @@
-form hr {
-    border-color: var(--colour-primary-700);
-    margin: var(--space-4);
+h1 {
+    text-align: center;
+    color: var(--colour-grey-300);
 }
 
-label {
-    color: var(--colour-primary-700);
-    display: block;
-    margin-bottom: var(--space-2);
+form {
+    max-width: 25rem;
+    margin: var(--space-8) auto;
+    padding: var(--space-4);
+    background-color: var(--colour-grey-600);
+    border-radius: var(--border-radius-md);
+    text-align: center;
 }
 
-input,
-textarea {
-    font: inherit;
-    padding: var(--space-2);
-    border-radius: var(--border-radius-sm);
-    border: none;
-    width: 90%;
+form a {
+    color: var(--color-primary-200);
+}
 
-    background-color: var(--colour-primary-500-contrast);
+form a:hover, 
+form a:active {
+    color: var(--color-primary-400);
 }

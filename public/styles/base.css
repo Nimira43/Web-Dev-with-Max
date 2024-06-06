@@ -4,10 +4,10 @@
 
 html {
     font-family: 'Mulish', sans-serif;
-    color: #ffffc7;
-    --colour-grey-50: #eee;
+    
+    /* --colour-grey-50: #eee;
     --colour-grey-100: #ccc;
-    --colour-grey-200: #777;
+    --colour-grey-200: #aaa;
     --colour-grey-300: #444;
     --colour-grey-400: #222;
     --colour-grey-500: #121212;
@@ -23,8 +23,29 @@ html {
     --colour-primary-500-contrast: #f9f9e8;
     --colour-error-100: #ccaf67;
     --colour-error-500: #f21616;
-    --colour-primary-500-bg: #010101;
+    --colour-primary-500-bg: #010101; */
+    
+    --colour-grey-50: #f3ece6;
+    --colour-grey-100: #cfc9c3;
+    --colour-grey-300: #635c56;
+    --colour-grey-400: #46413c;
+    --colour-grey-500: #25221f;
+    --colour-grey-600: #201d1a;
+    --colour-grey-700: #1f1a16;
 
+    --colour-primary-50: #fde0c8;
+    --colour-primary-100: #fdd6b7;
+    --colour-primary-200: #fabf8f;
+    --colour-primary-400: #df9f29;
+    --colour-primary-500: #d4880e;
+    --colour-primary-700: #d4780e;
+    --colour-primary-200-contrast: #642e02;
+    --colour-primary-500-contrast: #ffffff;
+
+    --colour-error-100: #ffc0b4;
+    --colour-error-500: #c7330f;
+
+    --colour-primary-500-bg: #3f3c3a;
     --space-1: 0.25rem;
     --space-2: 0.5rem;
     --space-4: 1rem;
