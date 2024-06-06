@@ -24,7 +24,7 @@ html {
     --colour-error-100: #ccaf67;
     --colour-error-500: #f21616;
     --colour-primary-500-bg: #010101; */
-    
+
     --colour-grey-50: #f3ece6;
     --colour-grey-100: #cfc9c3;
     --colour-grey-300: #635c56;
@@ -46,6 +46,7 @@ html {
     --colour-error-500: #c7330f;
 
     --colour-primary-500-bg: #3f3c3a;
+    
     --space-1: 0.25rem;
     --space-2: 0.5rem;
     --space-4: 1rem;
